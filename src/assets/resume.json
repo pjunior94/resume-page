@@ -1,0 +1,53 @@
+{
+    "name": "Paulo Henrique Junior",
+    "photo": "",
+    "location": {
+        "latitude": 123456789,
+        "longitude": 123456789
+    },
+    "phone": "",
+    "email": "",
+    "description": "",
+    "experiences": [
+        {
+            "company": {
+                "name": "",
+                "description": ""
+            },
+            "initialDate": "",
+            "endDate": "",
+            "currentPosition": false,
+            "experienceDescription": [
+
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "school": "",
+            "degree": "",
+            "initialDate": "",
+            "endDate": "",
+            "description": ""
+        }
+    ],
+    "languages": [
+        {
+            "name": "",
+            "level": ""
+        }
+    ],
+    "knowledges": [
+        {
+            "name": "C#",
+            "level": 4
+        }
+    ],
+    "internationalExperiences": [
+        {
+            "latitude": 123456789,
+            "longitude": 123456789,
+            "location": "São Paulo, Brazil"
+        }
+    ]
+}
