@@ -4,6 +4,12 @@ import './App.css';
 
 import me from './assets/me.png';
 
+import edmonton from './assets/cities/edmonton.jpg';
+import marseille from './assets/cities/marseille.jpg';
+import porto from './assets/cities/porto.jpg';
+import saopaulo from './assets/cities/sao-paulo.jpg';
+import wroclaw from './assets/cities/wroclaw.jpg';
+
 function App() {
   return (
 
@@ -132,37 +138,57 @@ function App() {
             <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row flex-grow justify-center">
               <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-row w-52 h-52 bg-gray-600 m-4 rounded-md">
-
+                <img
+                  className="rounded-md w-52 h-52"
+                  src={saopaulo}
+                  alt=""
+                />
                 </div>
-                <p>São Paulo, Brazil</p>
+                <a className="font-sans text-sm sm:text-sm md:text-lg lg:text-xl font-light text-gray-600" href="https://www.google.com/maps/search/São%20Paulo,%20Brazil?hl=en&source=opensearch" target="_blank" rel="noreferrer"> São Paulo, Brazil</a>
               </div>
 
               <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-row w-52 h-52 bg-gray-600 m-4 rounded-md">
-
+                <img
+                  className="rounded-md w-52 h-52"
+                  src={marseille}
+                  alt=""
+                />
                 </div>
-                <p>Marseile, France</p>
+                <a className="font-sans text-sm sm:text-sm md:text-lg lg:text-xl font-light text-gray-600" href="https://www.google.com/maps/search/Marseille,%20France?hl=en&source=opensearch" target="_blank" rel="noreferrer"> Marseille, France</a>
               </div>
 
               <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-row w-52 h-52 bg-gray-600 m-4 rounded-md">
-
+                <img
+                  className="rounded-md w-52 h-52"
+                  src={porto}
+                  alt=""
+                />
                 </div>
-                <p>Porto, Portugal</p>
+                <a className="font-sans text-sm sm:text-sm md:text-lg lg:text-xl font-light text-gray-600" href="https://www.google.com/maps/search/Porto,%20Portugal?hl=en&source=opensearch" target="_blank" rel="noreferrer"> Porto, Portugal</a>
               </div>
 
               <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-row w-52 h-52 bg-gray-600 m-4 rounded-md">
-
+                <img
+                  className="rounded-md w-52 h-52"
+                  src={edmonton}
+                  alt=""
+                />
                 </div>
-                <p>Edmonton, Canada</p>
+                <a className="font-sans text-sm sm:text-sm md:text-lg lg:text-xl font-light text-gray-600" href="https://www.google.com/maps/search/Edmonton,%20Canada?hl=en&source=opensearch" target="_blank" rel="noreferrer"> Edmonton, Canada</a>
               </div>
 
               <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-row w-52 h-52 bg-gray-600 m-4 rounded-md">
-
+                <img
+                  className="rounded-md w-52 h-52"
+                  src={wroclaw}
+                  alt=""
+                />
                 </div>
-                <p>Wroclaw, Poland</p>
+                <a className="font-sans text-sm sm:text-sm md:text-lg lg:text-xl font-light text-gray-600" href="https://www.google.com/maps/search/Wroclaw,%20Poland?hl=en&source=opensearch" target="_blank" rel="noreferrer"> Wroclaw, Poland</a>
               </div>
             </div>
           </div>
