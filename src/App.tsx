@@ -32,7 +32,7 @@ function App() {
           </div>
           <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row">
             <div className="flex flex-row sm:flex-row md:flex-row lg:flex-col justify-center sm:justify-center md:justify-center lg:justify-start flex-grow pl-2 sm:pl-2 md:pl-2 lg:pl-2">
-              <p className="font-sans text-xl sm:text-2xl md:text-2xl lg:text-3xl font-normal text-gray-800">Paulo Henrique Junior</p>
+              <p className="font-sans text-xl sm:text-2xl md:text-2xl lg:text-3xl font-normal text-gray-800">Paulo Henrique Souza</p>
             </div>
 
             <div className="flex flex-row sm:flex-col md:flex-col lg:flex-col flex-grow pr-2 sm:pr-2 md:pr-2 lg:pr-2">
@@ -60,7 +60,7 @@ function App() {
                   Senior .Net Developer, IT Sector&nbsp;
                 </p>
                 <p className="font-sans text-sm sm:text-xl md:text-xl lg:text-xl font-normal justify-end flex-grow sm:flex-grow md:flex-grow lg:flex-grow-0 text-black">
-                  - Dec 2020 - present - Porto/Portugal - 9 months
+                  - Dec 2020 - present - Porto, Portugal - 9 months
                 </p>
               </div>
               <p className="font-sans text-sm sm:text-xl md:text-xl lg:text-xl font-normal text-black pr-2">
