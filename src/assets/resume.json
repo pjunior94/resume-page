@@ -1,21 +1,47 @@
 {
     "name": "Paulo Henrique Junior",
-    "photo": "",
-    "location": {
-        "latitude": 123456789,
-        "longitude": 123456789
-    },
-    "phone": "",
-    "email": "",
+    "photo": "./assets/me.png",
+    "location": "Porto, Portugal",
+    "phone": "+351 912 583 618",
+    "email": "ps.junior94@gmail.com",
     "description": "",
     "experiences": [
         {
             "company": {
-                "name": "",
-                "description": ""
+                "name": "IT Sector",
+                "description": "IT Sector is a company with more than 15 years specialized in digital transformation for financial institutions around Europe."
             },
-            "initialDate": "",
+            "initialDate": "12/2020",
             "endDate": "",
+            "location": "Porto, Portugal",
+            "currentPosition": true,
+            "experienceDescription": [
+                "Developing new features as described on analysis requirement on microservices backend solution using .Net C# (.Net Core, .Net Framework).",
+                "Working close to customer’s team in Canada and mobile team to identify and fix bugs on backend solution as it was open from QA and QA customer’s team.",
+                "Helping and leading new members on team to understand the architecture and start to develop new features based on user stories in backend project."
+            ]
+        },
+        {
+            "company": {
+                "name": "Oreons IT Solutions",
+                "description": "Oreons IT Solutions is a company with more than 20 years of IT experience for the airline and transport business market."
+            },
+            "initialDate": "03/2017",
+            "endDate": "11/2019",
+            "location": "São Paulo, Brazil",
+            "currentPosition": false,
+            "experienceDescription": [
+
+            ]
+        },
+        {
+            "company": {
+                "name": "Nova Singular",
+                "description": "Nova Singular is a publicity agency that also develop web solutions for small and big companies."
+            },
+            "initialDate": "05/2015",
+            "endDate": "03/2017",
+            "location": "São Paulo, Brazil",
             "currentPosition": false,
             "experienceDescription": [
 
@@ -24,17 +50,26 @@
     ],
     "educations": [
         {
-            "school": "",
-            "degree": "",
-            "initialDate": "",
-            "endDate": "",
+            "school": "Centro Universitário Estácio de Sá",
+            "degree": "MBA in Project Management",
+            "endYear": "2021",
+            "description": ""
+        },
+        {
+            "school": "Centro Universitário Estácio de Sá",
+            "degree": "B.Sc. in Analysis and System Development",
+            "endYear": "2019",
             "description": ""
         }
     ],
     "languages": [
         {
-            "name": "",
-            "level": ""
+            "name": "English",
+            "level": "Advanced"
+        },
+        {
+            "name": "Portuguese",
+            "level": "Native"
         }
     ],
     "knowledges": [
@@ -45,9 +80,29 @@
     ],
     "internationalExperiences": [
         {
-            "latitude": 123456789,
-            "longitude": 123456789,
+            "image": "./assets/cities/sao-paulo.jpg",
+            "link": "https://www.google.com/maps/search/São%20Paulo,%20Brazil?hl=en&source=opensearch",
             "location": "São Paulo, Brazil"
+        },
+        {
+            "image": "./assets/cities/marseille.jpg",
+            "link": "https://www.google.com/maps/search/Marseille,%20France?hl=en&source=opensearch",
+            "location": "Marseille, France"
+        },
+        {
+            "image": "./assets/cities/porto.jpg",
+            "link": "https://www.google.com/maps/search/Porto,%20Portugal?hl=en&source=opensearch",
+            "location": "Porto, Portugal"
+        },
+        {
+            "image": "./assets/cities/edmonton.jpg",
+            "link": "https://www.google.com/maps/search/Edmonton,%20Canada?hl=en&source=opensearch",
+            "location": "Edmonton, Canada"
+        },
+        {
+            "image": "./assets/cities/wroclaw.jpg",
+            "link": "https://www.google.com/maps/search/Wroclaw,%20Poland?hl=en&source=opensearch",
+            "location": "Wroclaw, Poland"
         }
     ]
 }
