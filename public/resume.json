@@ -83,22 +83,22 @@
     ],
     "internationalExperiences": [
         {
-            "image": "/cities/sao-paulo.jpg",
+            "image": "/resume-page/cities/sao-paulo.jpg",
             "link": "https://www.google.com/maps/search/São%20Paulo,%20Brazil?hl=en&source=opensearch",
             "location": "São Paulo, Brazil"
         },
         {
-            "image": "/cities/marseille.jpg",
+            "image": "/resume-page/cities/marseille.jpg",
             "link": "https://www.google.com/maps/search/Marseille,%20France?hl=en&source=opensearch",
             "location": "Marseille, France"
         },
         {
-            "image": "/cities/porto.jpg",
+            "image": "/resume-page/cities/porto.jpg",
             "link": "https://www.google.com/maps/search/Porto,%20Portugal?hl=en&source=opensearch",
             "location": "Porto, Portugal"
         },
         {
-            "image": "/cities/edmonton.jpg",
+            "image": "/resume-page/cities/edmonton.jpg",
             "link": "https://www.google.com/maps/search/Edmonton,%20Canada?hl=en&source=opensearch",
             "location": "Edmonton, Canada"
         }
