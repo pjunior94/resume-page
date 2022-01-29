@@ -1,4 +1,4 @@
-
+import { Company } from "./Company";
 
 export class Experience {
     company: Company;
@@ -15,15 +15,5 @@ export class Experience {
         this.location = experience.location;
         this.position = experience.position;
         this.experienceDescription = experience.experienceDescription;
-    }
-}
-
-export class Company {
-    name: string;
-    description: string;
-
-    constructor(company: Company) {
-        this.name = company.name;
-        this.description = company.description
     }
 }

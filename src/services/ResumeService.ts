@@ -1,16 +1,20 @@
 import { Resume } from "../models/Resume";
+import { doc, getDoc } from 'firebase/firestore/lite';
 
-export const getResumeData = async (): Promise<Resume> => {
+
+import  db  from "../firebase.config";
+
+export const getResumeData = async (): Promise<Resume>  => {
     try {
-        const res = await fetch('resume.json', {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        });
-        return await res.clone().json();
-    } catch (e) {
-        console.error(e);
-        throw new Error("Error on trying to retrieve resume data...");
+        const resumeCol = doc(db, 'resume', 'MCELH380CsxAQKh0lbZw');
+        const resumeSnapshot = await getDoc(resumeCol);
+
+        const resumeDoc = new Resume(resumeSnapshot.data());
+        
+        return resumeDoc;
+
+    } catch (error) {
+        console.error(error);
+        throw new Error("Error on trying to retrieve resume data...");        
     }
 }
