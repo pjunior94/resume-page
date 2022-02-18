@@ -3,13 +3,13 @@ import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 
 var firebaseConfig = {
-    apiKey: "AAAA87rgyIo:APA91bGvEOsx9DHO_eCIpvyVwjqVAoEeDAZaJUNIJxqRJbylzXa0kCug2qQ8PncEBmEz0wfRnY6zTccs81Womqo6mcbmUOUbH53IBh0Y0pzkZIOJdYyDSDVmj1mrHpBJnh8Xjg4pDvAD",
-    projectId: "resume-95d5b",
-    databaseURL: "https://resume-95d5b-default-rtdb.europe-west1.firebasedatabase.app/",
-    authDomain: "resume-95d5b-default-rtdb.europe-west1.firebasedatabase.app",
+    apiKey: process.env.REACT_APP_API_KEY,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    databaseURL: process.env.REACT_APP_DATABASE_URL,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
     // OPTIONAL
-    storageBucket: "resume-95d5b-default-rtdb",
-    messagingSenderId: "1046812346506"
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGE_SENDER_ID
 };
 
 const app = initializeApp(firebaseConfig);
