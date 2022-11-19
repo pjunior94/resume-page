@@ -7,6 +7,7 @@ import { Language } from "./Language";
 export class Resume {
     name?: string;
     photo?: string;
+    role?: string;
     location?: string;
     phone?: string;
     email?: string;
@@ -21,6 +22,7 @@ export class Resume {
         this.name = resume?.name;
         this.photo = resume?.photo;
         this.location = resume?.location;
+        this.role = resume?.role;
         this.phone = resume?.phone;
         this.email = resume?.email;
         this.description = resume?.description;
